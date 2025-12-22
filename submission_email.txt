@@ -1,0 +1,48 @@
+Subject: FamPay Product Security Intern Assignment - CTF Solution Submission
+
+Dear FamPay Hiring Team,
+
+I am writing to submit my solution for the Product Security Intern Assignment CTF challenge.
+
+FLAG: F@M{This_is_not_a_reverse_code}
+
+I have successfully completed the challenge and prepared a comprehensive security assessment report documenting my methodology, findings, and recommendations. Please find the key highlights below:
+
+SOLUTION SUMMARY:
+• Manually reverse engineered the provided Android APK (fam-CTF.apk)
+• Discovered hardcoded API key through binary analysis: f4m_53cr37_70k3n
+• Successfully bypassed Level 1 authentication using the extracted key
+• Identified the flag through manual HTTP header analysis at the /uploads/flag endpoint
+• Documented multiple security vulnerabilities with professional remediation recommendations
+
+KEY VULNERABILITIES IDENTIFIED:
+1. CRITICAL: API credentials hardcoded in client-side application
+2. HIGH: Authentication bypassable through reverse engineering
+3. MEDIUM: Sensitive information disclosed via custom HTTP headers
+4. Demonstrated understanding of mobile application security principles
+
+TECHNICAL APPROACH:
+• Manual static analysis of APK components (manifest, DEX files, native libraries)
+• Hands-on dynamic testing of web endpoints with various authentication methods
+• Systematic manual enumeration of hidden endpoints and resources
+• Security-focused analysis with actionable remediation recommendations
+
+The complete technical report is attached (security_report.md), which includes:
+- Detailed methodology and tools used
+- Step-by-step exploitation walkthrough
+- Network traffic analysis and endpoint mapping
+- Professional security recommendations
+- Command reference for reproducibility
+
+I approached this challenge with the mindset of a security researcher, not just solving the CTF but also analyzing the underlying vulnerabilities and their real-world implications.
+
+Thank you for the opportunity to demonstrate my security analysis skills. I look forward to discussing my findings and approach in more detail.
+
+Best regards,
+[Your Name]
+[Your Email]
+[Your Phone Number]
+
+---
+Attachments:
+- security_report.md (Complete technical report)
