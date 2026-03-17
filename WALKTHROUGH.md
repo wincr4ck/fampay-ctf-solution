@@ -429,7 +429,7 @@ The flag was obtained through systematic analysis, combining mobile application 
 
 ---
 
-**Completed by:** [Your Name]  
+**Completed by:** wincr4ck  
 **Date:** December 22, 2025  
 **Time Invested:** ~4 hours  
 **Difficulty Rating:** Medium  
